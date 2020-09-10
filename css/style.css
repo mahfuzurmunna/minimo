@@ -6,7 +6,7 @@ body {
   color: #626262;
 }
 header {
-  padding: 50px 0;
+  padding: 40px 0;
 }
 .container {
   width: 85%;
@@ -115,3 +115,121 @@ header {
 }
 
 /*blog ends*/
+
+/*news start*/
+.news {
+  background-color: #f0f0f0;
+  padding: 80px 0;
+}
+.signup {
+  text-align: center;
+}
+.signup h1 {
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+.s_form {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+}
+.s_form input {
+  font-family: "playfair display", serif;
+  font-size: 14px;
+  color: #626262;
+  width: 340px;
+  height: 45px;
+  border: none;
+  border-bottom: 1px solid #626262;
+  background-color: transparent;
+  padding-left: 15px;
+  padding-right: 45px;
+}
+.s_form input:focus {
+  outline: 0;
+}
+.s_form button {
+  position: absolute;
+  top: 14px;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.s_form button:focus {
+  outline: 0;
+}
+
+.s_form img {
+}
+/*news ends */
+/*load more*/
+.loadmore {
+  padding-bottom: 100px;
+  text-align: center;
+}
+.loadmore button {
+  font-family: "playfair display", serif;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #626262;
+  width: 150px;
+  height: 60px;
+  background-color: white;
+  border: 1px solid #626262;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.loadmore button:hover {
+  background-color: #626262;
+  color: white;
+}
+/*load more ends*/
+/*footer starts*/
+.footer {
+  background-color: #f0f0f0;
+  padding: 30px 0;
+  overflow: hidden;
+}
+.terms {
+  float: left;
+  display: inline-block;
+}
+.terms ul {
+  overflow: hidden;
+}
+.terms ul li {
+  list-style: none;
+  float: left;
+}
+.terms ul li a {
+  font-family: "playfair display", serif;
+  color: #626262;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding-left: 10px;
+}
+.terms ul li:first-child a {
+  padding-right: 25px;
+}
+
+.socialmedia {
+  float: right;
+  display: inline-block;
+}
+.socialmedia ul {
+  overflow: hidden;
+}
+.socialmedia ul li {
+  float: left;
+  list-style: none;
+  margin-right: 25px;
+}
+.socialmedia ul li a {
+  font-family: "playfair display", serif;
+  color: #626262;
+  text-decoration: none;
+  display: inline-block;
+}
+/*footer ends*/
